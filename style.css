@@ -1,0 +1,342 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*::selection {
+    background-color: #ffcc00;
+    color: white;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(45deg, #2c3e50, #3498db);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+header .container h1 {
+    margin-left: -25%;
+}
+
+header .container p {
+    margin-left: -25%;
+}
+
+nav {
+    background: linear-gradient(45deg, #2c3e50, #3498db);
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.03);
+}
+
+.project h3 {
+    background: linear-gradient(45deg, #2c3e50, #3498db);
+    color: #fff;
+    padding: 15px;
+}
+
+.project p {
+    padding: 15px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+input {
+    height: 35px;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-icons img {
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    background: linear-gradient(45deg, #2c3e50, #3498db);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        margin-bottom: 10px;
+    }
+    .project {
+        margin-bottom: 20px;
+    }
+}
+
+section#skills {
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 40px 0;
+}
+
+
+/* Style for Extra Large Screen */
+
+@media (max-width:3920px) {
+    .btn-sq-responsive {
+        width: 150px !important;
+        max-width: 100% !important;
+        max-height: 100% !important;
+        height: 200px !important;
+        font-size: 24px;
+    }
+}
+
+
+/* Style for Large Screen */
+
+.btn-square-md {
+    width: 120px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 120px !important;
+    text-align: center;
+    display: inline-block;
+    padding: 0px;
+    cursor: auto;
+    font-size: 12px;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-top: 11px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.10);
+    background: #ffcc00;
+    color: white;
+}
+
+.btn {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn img {
+    width: 90px;
+    height: 90px;
+}
+
+
+/* Sidebar styles */
+
+.sidebar {
+    background: linear-gradient(45deg, #3498db, #2c3e50);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #333;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+}
+
+.sidebar a:hover {
+    color: #ffcc01;
+}
+
+
+/* Adjustments for main content */
+
+header {
+    margin-left: 200px;
+    /* Adjust this value based on the width of your sidebar */
+}
+
+.container {
+    margin-left: 220px;
+    /* Adjust this value based on the width and padding of your sidebar */
+}
+
+.sidebar img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-left: 21px;
+}
+
+
+/* sidebar respomsible */
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 0;
+        /* Hide the sidebar by default on small screens */
+        overflow: hidden;
+    }
+    .container {
+        margin-left: 0;
+        /* Adjust the margin for the main content */
+    }
+    header {
+        margin-left: 0;
+        /* Adjust the margin for the header */
+    }
+    .sidebar a {
+        font-size: 16px;
+        /* Adjust font size for small screens */
+    }
+    .sidebar:hover {
+        width: 200px;
+        /* Display the sidebar on hover for better usability */
+    }
+}
+
+
+/* eduation */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #ddd;
+    /* Adjust border color and thickness as needed */
+    margin-top: 20px;
+    margin-left: 22px;
+    /* Add margin to separate from the section title */
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    /* Adjust border color and thickness as needed */
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    /* Add a background color to the table header */
+}
+
+
+/* Optional: Add some styling to the section title */
+
+#academic-education h2 {
+    margin-bottom: 10px;
+}
+
+section#academic-education {
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 40px 0;
+}
