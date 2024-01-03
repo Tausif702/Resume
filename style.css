@@ -13,6 +13,7 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f8f8f8;
     color: #333;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .container {
@@ -283,8 +284,7 @@ header {
 }
 
 .sidebar ul li a {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -348,10 +348,26 @@ th {
     margin-bottom: 10px;
 }
 
-section#academic-education {
+#academic-education {
     background-color: #fff;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     overflow: hidden;
     margin: 40px 0;
+}
+
+
+/* achivemrnt */
+
+#achivement-hobbies {
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 40px 0;
+}
+
+#achivement-hobbies ul li {
+    padding: 10px;
+    padding-left: 30px;
 }
