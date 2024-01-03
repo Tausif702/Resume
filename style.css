@@ -13,6 +13,7 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f8f8f8;
     color: #333;
+    background: white;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -165,10 +166,31 @@ footer {
 
 section#skills {
     background-color: #fff;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
     border-radius: 12px;
     overflow: hidden;
-    margin: 40px 0;
+    margin-top: 5%;
+    margin-left: 200px;
+}
+
+section#project {
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-left: 200px;
+}
+
+section#about {
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-left: 200px;
+    margin-top: 5%;
+    margin-left: 200px;
 }
 
 
@@ -201,13 +223,13 @@ section#skills {
     border-radius: 10px;
     font-size: 15px;
     padding-top: 11px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease-in-out;
 }
 
 .btn:hover {
     transform: scale(1.10);
-    background: #ffcc00;
+    background: #3498db;
     color: white;
 }
 
@@ -268,11 +290,6 @@ section#skills {
 header {
     margin-left: 200px;
     /* Adjust this value based on the width of your sidebar */
-}
-
-.container {
-    margin-left: 220px;
-    /* Adjust this value based on the width and padding of your sidebar */
 }
 
 .sidebar img {
@@ -350,10 +367,11 @@ th {
 
 #academic-education {
     background-color: #fff;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
     border-radius: 12px;
     overflow: hidden;
-    margin: 40px 0;
+    margin-top: 5%;
+    margin-left: 200px;
 }
 
 
@@ -361,13 +379,23 @@ th {
 
 #achivement-hobbies {
     background-color: #fff;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
     border-radius: 12px;
     overflow: hidden;
-    margin: 40px 0;
+    margin-top: 5%;
+    margin-left: 200px;
 }
 
 #achivement-hobbies ul li {
     padding: 10px;
     padding-left: 30px;
+}
+
+#contact {
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-left: 200px;
 }
