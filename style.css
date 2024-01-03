@@ -308,29 +308,7 @@ header {
 
 /* sidebar respomsible */
 
-@media (max-width: 768px) {
-    .sidebar {
-        width: 0;
-        /* Hide the sidebar by default on small screens */
-        overflow: hidden;
-    }
-    .container {
-        margin-left: 0;
-        /* Adjust the margin for the main content */
-    }
-    header {
-        margin-left: 0;
-        /* Adjust the margin for the header */
-    }
-    .sidebar a {
-        font-size: 16px;
-        /* Adjust font size for small screens */
-    }
-    .sidebar:hover {
-        width: 200px;
-        /* Display the sidebar on hover for better usability */
-    }
-}
+
 
 
 /* eduation */
